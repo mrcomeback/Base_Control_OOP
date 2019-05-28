@@ -26,13 +26,11 @@ namespace Base_control_OOP
 
                 if (firstPart == "Text")
                 {
-                    return new TextFile(secondPartArr[0].Split('.')[0], extension, size, secondPartArr[1]);
-                    //return new TextFile("", "", "", "");
+                    return new TextFile(secondPartArr[0].Split('.')[0], extension, size, secondPartArr[1]);          
                 }
                 else
                 {
-                    return new ImageFile(secondPartArr[0].Split('.')[0], secondPartArr[1], size, extension);
-                    //return new ImageFile("", "", "", "");
+                    return new ImageFile(secondPartArr[0].Split('.')[0], secondPartArr[1], size, extension);   
                 }
 
 
